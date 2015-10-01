@@ -1,0 +1,2 @@
+[General]
+cookies="@Variant(\0\0\0\x7f\0\0\0\x16QList<QNetworkCookie>\0\0\0\0\x1\0\0\0\x1\0\0\0MMOCKSESSID=9f5368b6b62025b2b3e60e81dfa3cdd1a52ecb55; domain=localhost; path=/)"
