@@ -1,0 +1,220 @@
+29 sept. 2015 11:52:15 [main] INFO  Server is started at 12345
+29 sept. 2015 11:52:15 [main] INFO  Shutdown port is 60491
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-2] INFO  Request received:
+
+GET /login HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1
+Cookie: PHPSESSID=s1n4jrc9gr3meta74e080op114
+Connection: Keep-Alive
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,en,*
+Host: localhost:12345
+Content-Length: 0
+
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-2] INFO  Response return:
+
+HTTP/1.1 400
+
+
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-3] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-3] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:21 [nioEventLoopGroup-3-4] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:21 [nioEventLoopGroup-3-4] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:22 [nioEventLoopGroup-3-5] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:22 [nioEventLoopGroup-3-5] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:23 [nioEventLoopGroup-3-6] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:23 [nioEventLoopGroup-3-6] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:24 [nioEventLoopGroup-3-7] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:24 [nioEventLoopGroup-3-7] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:29 [nioEventLoopGroup-3-8] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:29 [nioEventLoopGroup-3-8] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:29 [nioEventLoopGroup-3-1] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:29 [nioEventLoopGroup-3-1] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:31 [nioEventLoopGroup-3-2] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:31 [nioEventLoopGroup-3-2] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:31 [nioEventLoopGroup-3-3] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:31 [nioEventLoopGroup-3-3] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:32 [nioEventLoopGroup-3-4] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:32 [nioEventLoopGroup-3-4] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:34 [nioEventLoopGroup-3-5] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:34 [nioEventLoopGroup-3-5] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:53:35 [nioEventLoopGroup-3-6] INFO  Request received:
+
+GET /sso/ping/p91cae422218c4f2142f89e285fa68680ed093be HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:35 [nioEventLoopGroup-3-6] INFO  Response return:
+
+HTTP/1.1 200
+
+
+29 sept. 2015 11:54:07 [nioEventLoopGroup-3-7] INFO  Request received:
+
+GET /sso/ping/14d0749092c1a5f4262cbe6bcbd5ef1aa8fcf330 HTTP/1.1
+Host: localhost:12345
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:54:07 [nioEventLoopGroup-3-7] INFO  Response return:
+
+HTTP/1.1 404
+
+
+29 sept. 2015 11:54:07 [nioEventLoopGroup-3-8] INFO  Request received:
+
+GET /login HTTP/1.1
+Host: localhost:12345
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: PHPSESSID=d34qi0nn34dktij6c16qcpkn12
+Content-Length: 0
+
+29 sept. 2015 11:54:07 [nioEventLoopGroup-3-8] INFO  Response return:
+
+HTTP/1.1 400
+
+
+29 sept. 2015 11:54:07 [nioEventLoopGroup-3-8] INFO  Request received:
+
+GET /favicon.ico HTTP/1.1
+Host: localhost:12345
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Accept: */*
+Referer: http://localhost:12345/login?redirect_success=http%3A%2F%2Ffact.localdev%2Fapp_dev.php%2Fxeonys%2Fsecurityprovider%2Fauthenticationsuccess%3Fredirect_success_redirect%3D%252Fapp_dev.php&redirect_failure=http%3A%2F%2Ffact.localdev%2Fapp_dev.php%2Fxeonys%2Fsecurityprovider%2Fauthenticationfailure
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: PHPSESSID=d34qi0nn34dktij6c16qcpkn12
+Content-Length: 0
+
+29 sept. 2015 11:54:07 [nioEventLoopGroup-3-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3233
+Content-Type: image/png
+
+<content is binary>
+
+29 sept. 2015 11:57:18 [Thread-2] INFO  Server stopped.
+29 sept. 2015 11:57:18 [Thread-2] INFO  Total time: 5,051 min

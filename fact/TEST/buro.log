@@ -1,0 +1,94 @@
+29 sept. 2015 11:52:15 [main] INFO  Server is started at 12347
+29 sept. 2015 11:52:15 [main] INFO  Shutdown port is 60490
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-2] INFO  Request received:
+
+GET /api/token/p91cae422218c4f2142f89e285fa68680ed093be/accounting/get/1 HTTP/1.1
+Host: localhost:12347
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 1034
+Content-Type: application/json; charset=utf-8
+
+{"count":1,"accounting":{"id":1,"infocompanyId":1659616,"holdingId":null,"infocompanySupId":null,"regionId":null,"poleId":null,"agencyId":null,"officeId":null,"legalEntityId":null,"corporatename":"In Extenso","brandname":"In Extenso","nafcode":"7022Z","siret":"81103089900017","legalstructure":null,"datestart":{"date":"2014-05-20 00:00:00.000000","timezone_type":3,"timezone":"Europe/Paris"},"dateend":"12","locked":false,"accountingFirmId":null,"logo":"logo.png","filenumber":null,"createdAt":{"date":"2014-05-20 12:55:29.000000","timezone_type":3,"timezone":"Europe/Paris"},"updatedAt":{"date":"2015-07-29 11:29:43.000000","timezone_type":3,"timezone":"Europe/Paris"},"urlDomainName":null,"codeClient":null,"codeDossier":null,"codeJdc":null,"company_type":"accounting","adresses":[{"id":373213,"intitule":null,"address":"81 BD STALINGRAD","address2":null,"address3":null,"zip":"69100","city":"VILLEURBANNE","countryCode":"FR"}],"phoneNumbers":[{"id":347421,"phoneNumber":"0491000000","type":"2"}],"uploadDir":"uploads/accoutants"}}
+
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-2] INFO  Request received:
+
+GET /api/token/p91cae422218c4f2142f89e285fa68680ed093be/module/get_for_user/49953/10 HTTP/1.1
+Host: localhost:12347
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 2542
+Content-Type: application/json; charset=utf-8
+
+{"modules":{"12":{"id":12,"name":"Inexcompta","icone":"http://ie.xeonys.name/uploads/modules/12/icone.png","uploadDir":"uploads/modules","url":"https://compta.inexweb.fr/","externApp":false,"groupTitle":"a","updateModule":false,"uacEntries":[],"isPending":false},"18":{"id":18,"name":"Inexpaie","icone":"http://ie.xeonys.name/uploads/modules/18/icone.png","uploadDir":"uploads/modules","url":"https://inexpaie.fr/AccesUnique.aspx","externApp":false,"groupTitle":"a","updateModule":false,"uacEntries":[],"isPending":false},"10":{"id":10,"name":"Inexcaisse","icone":"http://ie.xeonys.name/uploads/modules/10/icone.png","uploadDir":"uploads/modules","url":"http://ie.mcl.xeonys.name","externApp":false,"groupTitle":"app","updateModule":false,"uacEntries":[],"isPending":false},"11":{"id":11,"name":"Inexcoffre","icone":"http://ie.xeonys.name/uploads/modules/11/icone.png","uploadDir":"uploads/modules","url":"http://ie.ged.xeonys.name","externApp":false,"groupTitle":"app","updateModule":false,"uacEntries":[],"isPending":false},"22":{"id":22,"name":"Inexfacile","icone":"http://ie.xeonys.name/uploads/modules/22/icone.png","uploadDir":"uploads/modules","url":"http://ie.facile.xeonys.name","externApp":false,"groupTitle":"app","updateModule":false,"uacEntries":[],"isPending":false},"14":{"id":14,"name":"Inexfact","icone":"http://ie.xeonys.name/uploads/modules/14/icone.png","uploadDir":"uploads/modules","url":"http://ie.fact.xeonys.name","externApp":false,"groupTitle":"app","updateModule":false,"uacEntries":[],"isPending":false},"16":{"id":16,"name":"Inexgestion","icone":"http://ie.xeonys.name/uploads/modules/16/icone.png","uploadDir":"uploads/modules","url":"http://ie.gestion.xeonys.name","externApp":false,"groupTitle":"app","updateModule":false,"uacEntries":[],"isPending":false},"17":{"id":17,"name":"Ineximage","icone":"http://ie.xeonys.name/uploads/modules/17/icone.png","uploadDir":"uploads/modules","url":"http://ie.ssi.xeonys.name","externApp":false,"groupTitle":"app","updateModule":false,"uacEntries":[],"isPending":false},"9":{"id":9,"name":"Inexscan","icone":"http://ie.xeonys.name/uploads/modules/9/icone.png","uploadDir":"uploads/modules","url":"https://scan.inexweb.fr","externApp":false,"groupTitle":"app","updateModule":false,"uacEntries":[],"isPending":false},"21":{"id":21,"name":"Inexstore","icone":"http://ie.xeonys.name/uploads/modules/21/icone.png","uploadDir":"uploads/modules","url":"http://ie.xeonys.name/store","externApp":false,"groupTitle":"Toutes","updateModule":false,"uacEntries":[],"isPending":false}}}
+
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-2] INFO  Request received:
+
+GET /api/v3/uca/users/49953/access.json HTTP/1.1
+Host: localhost:12347
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:19 [nioEventLoopGroup-3-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 419
+Content-Type: application/json; charset=utf-8
+
+{"success":{"code":200,"message":"Success"},"companies":[{"id":119983,"corporatename":"DEMO PORTAIL CLIENT BAC A SABLE","filenumber":"000003"},{"id":131674,"corporatename":"LIFEGUARD'S TAVERN","filenumber":"325623"},{"id":143020,"corporatename":"MARCO (GT IMAGE, GESTION, INEXFACILE)","filenumber":"MARCO"}],"totalCount":3,"parameters":{"accountingFirmId":"1","withInfos":false,"limit":"200","moduleId":"10"},"count":3}
+
+29 sept. 2015 11:53:23 [nioEventLoopGroup-3-3] INFO  Request received:
+
+GET /api/v3/uca/users/49953/access.json HTTP/1.1
+Host: localhost:12347
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:23 [nioEventLoopGroup-3-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 419
+Content-Type: application/json; charset=utf-8
+
+{"success":{"code":200,"message":"Success"},"companies":[{"id":119983,"corporatename":"DEMO PORTAIL CLIENT BAC A SABLE","filenumber":"000003"},{"id":131674,"corporatename":"LIFEGUARD'S TAVERN","filenumber":"325623"},{"id":143020,"corporatename":"MARCO (GT IMAGE, GESTION, INEXFACILE)","filenumber":"MARCO"}],"totalCount":3,"parameters":{"accountingFirmId":"1","withInfos":false,"limit":"200","moduleId":"10"},"count":3}
+
+29 sept. 2015 11:53:25 [nioEventLoopGroup-3-4] INFO  Request received:
+
+GET /api/token/p91cae422218c4f2142f89e285fa68680ed093be/company/get-by-id-userid-accfid/49953/1/131674 HTTP/1.1
+Host: localhost:12347
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:25 [nioEventLoopGroup-3-4] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 99
+Content-Type: application/json; charset=utf-8
+
+{"success":true,"company":{"id":131674,"corporatename":"LIFEGUARD'S TAVERN","filenumber":"325623"}}
+
+29 sept. 2015 11:53:29 [nioEventLoopGroup-3-5] INFO  Request received:
+
+GET /api/v3/uca/users/49953/access.json HTTP/1.1
+Host: localhost:12347
+User-Agent: Guzzle/3.7.4 curl/7.37.1 PHP/5.5.25
+Content-Length: 0
+
+29 sept. 2015 11:53:29 [nioEventLoopGroup-3-5] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 419
+Content-Type: application/json; charset=utf-8
+
+{"success":{"code":200,"message":"Success"},"companies":[{"id":119983,"corporatename":"DEMO PORTAIL CLIENT BAC A SABLE","filenumber":"000003"},{"id":131674,"corporatename":"LIFEGUARD'S TAVERN","filenumber":"325623"},{"id":143020,"corporatename":"MARCO (GT IMAGE, GESTION, INEXFACILE)","filenumber":"MARCO"}],"totalCount":3,"parameters":{"accountingFirmId":"1","withInfos":false,"limit":"200","moduleId":"10"},"count":3}
+
+29 sept. 2015 11:57:17 [Thread-2] INFO  Server stopped.
+29 sept. 2015 11:57:17 [Thread-2] INFO  Total time: 5,034 min
