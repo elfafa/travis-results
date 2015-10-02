@@ -1,0 +1,29 @@
+2015-10-02 10:06:48 - PeriodicValidation consumer begin : company=131674
+2015-10-02 10:06:48 - PeriodicValidation consumer : [33m5 invoices to treat[0m
+The exit status code '127' says something went wrong:
+stderr: "sh: 1: /usr/local/bin/wkhtmltopdf: not found
+"
+stdout: ""
+command: /usr/local/bin/wkhtmltopdf --lowquality --margin-bottom '5' --margin-left '0' --margin-right '0' --margin-top '0' --debug-javascript --enable-javascript --javascript-delay '1000' --footer-font-size '8' --footer-right 'Page [page] / [topage]      ' '/tmp/knp_snappy560e5739060840.39032608.html' '/tmp/knp_snappy560e57390616b8.62553668.pdf'.
+The exit status code '127' says something went wrong:
+stderr: "sh: 1: /usr/local/bin/wkhtmltopdf: not found
+"
+stdout: ""
+command: /usr/local/bin/wkhtmltopdf --lowquality --margin-bottom '5' --margin-left '0' --margin-right '0' --margin-top '0' --debug-javascript --enable-javascript --javascript-delay '1000' --footer-font-size '8' --footer-right 'Page [page] / [topage]      ' '/tmp/knp_snappy560e573910a961.47871064.html' '/tmp/knp_snappy560e573910b708.96488268.pdf'.
+The exit status code '127' says something went wrong:
+stderr: "sh: 1: /usr/local/bin/wkhtmltopdf: not found
+"
+stdout: ""
+command: /usr/local/bin/wkhtmltopdf --lowquality --margin-bottom '5' --margin-left '0' --margin-right '0' --margin-top '0' --debug-javascript --enable-javascript --javascript-delay '1000' --footer-font-size '8' --footer-right 'Page [page] / [topage]      ' '/tmp/knp_snappy560e57391a20a8.67635476.html' '/tmp/knp_snappy560e57391a2e16.14122723.pdf'.
+The exit status code '127' says something went wrong:
+stderr: "sh: 1: /usr/local/bin/wkhtmltopdf: not found
+"
+stdout: ""
+command: /usr/local/bin/wkhtmltopdf --lowquality --margin-bottom '5' --margin-left '0' --margin-right '0' --margin-top '0' --debug-javascript --enable-javascript --javascript-delay '1000' --footer-font-size '8' --footer-right 'Page [page] / [topage]      ' '/tmp/knp_snappy560e573925db83.71515649.html' '/tmp/knp_snappy560e573925ea00.07095141.pdf'.
+The exit status code '127' says something went wrong:
+stderr: "sh: 1: /usr/local/bin/wkhtmltopdf: not found
+"
+stdout: ""
+command: /usr/local/bin/wkhtmltopdf --lowquality --margin-bottom '5' --margin-left '0' --margin-right '0' --margin-top '0' --debug-javascript --enable-javascript --javascript-delay '1000' --footer-font-size '8' --footer-right 'Page [page] / [topage]      ' '/tmp/knp_snappy560e57392fc489.87815904.html' '/tmp/knp_snappy560e57392fd257.91446312.pdf'.
+2015-10-02 10:06:49 - PeriodicValidation consumer : [32m5 invoices have been created[0m
+2015-10-02 10:06:49 - PeriodicValidation consumer end : company=131674
